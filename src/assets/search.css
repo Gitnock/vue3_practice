@@ -1,0 +1,20 @@
+/* input is full width,has no border */
+.search{
+  margin-top: 12px;
+  padding: 8px;
+}
+input {
+  width: 100%;
+  border-width: 0px 0px 1px;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--color-text);
+  background: transparent;
+  transition: border-color 0.5s;
+  border-color: var(--vt-c-gray);
+}
+input:focus {
+  outline: none;
+  border-color: var(--color-text);
+}
